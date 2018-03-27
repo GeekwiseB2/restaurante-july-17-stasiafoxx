@@ -22,3 +22,31 @@
   color: #F65239;
   background-color: rgba(0,0,0,.25);
 }
+
+
+/* CAROUSEL STYLES START */
+.item {
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+
+}
+.wood-bg {
+  background-image: url(../img/wood-2.jpg);
+}
+
+.hero-logo {
+  width: 240px;
+}
+
+.flex-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* SECOND IMAGE STYLES */
+.seating-bg {
+  background-image: url(../img/restaurant-2.jpg);
+}
