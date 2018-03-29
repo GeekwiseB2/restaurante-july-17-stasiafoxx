@@ -13,6 +13,12 @@
 .white-text {
   color: #fff;
 }
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
 /* Navbar Styles */
 .navbar-default {
   background-color: transparent;
@@ -73,7 +79,7 @@
   background-image: url(../img/farm-2.jpg);
 }
 
-/* OUR STORY SECTION */
+/* OUR STORY SECTION STARTS*/
 #our-story {
   margin: 120px auto;
 
@@ -93,4 +99,27 @@
 
 #our-story p {
   font-weight: 200;
+}
+/* OUR STORY STYLES END  */
+
+/* Review STYLES START */
+#review {
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0px;
+}
+
+.review-box {
+  background-color: rgba(0,0,0,.6);
+  border-radius: 6px;
+}
+
+.review-box h1 {
+  text-shadow: 1px 1px 2px;
+  font-size: 5.5em;
+}
+
+.review-box p {
+  font-size: 32px;
 }
