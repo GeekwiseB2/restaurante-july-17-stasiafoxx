@@ -28,7 +28,7 @@ body {
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color: #fff;
-  background-color: rgba(0,0,0,.6)
+  background-color: rgba(0, 0, 0, .6);
   text-shadow: 1px 1px 1px #000;
 }
 
@@ -54,6 +54,10 @@ body {
   background-image: url(../img/wood-2.jpg);
 }
 
+.seating-bg {
+  background-image: url(../img/restaurant-2.jpg);
+}
+
 .hero-logo {
   width: 240px;
 }
@@ -64,17 +68,10 @@ body {
   align-items: center;
   height: 100%;
 }
-.text-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-/* SECOND IMAGE STYLES */
-.seating-bg {
-  background-image: url(../img/restaurant-2.jpg);
-}
 
+.carousel-caption {
+  padding-bottom: 150px;
+}
 /* THIRD IMAGE STYLES */
 .farm-bg {
   background-image: url(../img/farm-2.jpg);
@@ -118,7 +115,7 @@ body {
 }
 
 .review-box h1 {
-  text-shadow: 1px 1px 2px;
+  text-shadow: 1px 1px 2px #000;
   font-size: 5.5em;
 }
 
@@ -129,9 +126,9 @@ body {
 /* MENU STYLES START */
 
 #menu {
-  backgroung-image: url('../img/black_linen.png');
+  background-image: url('../img/black_linen.png');
   background-position: center;
-  padding: 170px 0px;
+  padding: 50px;
 }
 
 #menu .col-sm-3 {
@@ -147,10 +144,18 @@ body {
   background-color: #fff;
   color: #F8512F;
   border: none;
-  padding 11px;
+  padding: 11px;
 }
 
-.nav-tabs.nav-justified
+.nav-tabs.nav-justified>li>a {
+  color: #F8512F;
+  font-weight: bold;
+}
+
+#menu .nav li a:hover {
+  background-color: rgba(255, 255, 255, .1);
+  border: none;
+}
 /* CONTACT SECTION STYLES START */
 #contact {
   background: linear-gradient(#F8512F, #F8114D);
